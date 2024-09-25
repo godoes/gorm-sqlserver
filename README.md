@@ -4,7 +4,7 @@
 
 ```go
 import (
-  "gorm.io/driver/sqlserver"
+  "github.com/godoes/gorm-sqlserver"
   "gorm.io/gorm"
 )
 
@@ -17,8 +17,8 @@ db, err := gorm.Open(sqlserver.Open(dsn), &gorm.Config{})
 
 ```go
 import (
+  "github.com/godoes/gorm-sqlserver"
   "github.com/microsoft/go-mssqldb/azuread"
-  "gorm.io/driver/sqlserver"
   "gorm.io/gorm"
 )
 
